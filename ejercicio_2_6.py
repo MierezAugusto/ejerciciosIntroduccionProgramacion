@@ -1,8 +1,11 @@
 num = int(input("Ingrese un numero entero positivo: "))
 
-for i in range(num, -1, -1):
-    print(i, end=", ")
-    
+for i in range(num + 1):
+    if i == 10:
+        print(num)
+    else:
+        print(num, end=", ")
+        num= num - 1 
 
 """numeros = []
 contador = 0

@@ -6,4 +6,3 @@ for i in range(10):
         contador = contador + 1 
 
 print("Se ingresaron "+ str(contador) + " numeros pares")
-
